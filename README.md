@@ -5,6 +5,8 @@ Extract NetBox data, store it in a vector database, and enable interactive chat-
 pip3 install fastapi uvicorn qdrant-client sentence-transformers jinja2
 
 2) Run Qdrant via docker
+   (Install docker if not already installed)
+apt  install docker.io 
 docker run -p 6333:6333 qdrant/qdrant
 
 3) Get the data from the netbox 
